@@ -1,6 +1,6 @@
 version: '3.8'
 
-name: test
+name: statista
 services:
     app:
         container_name: test-api
