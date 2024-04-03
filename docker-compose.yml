@@ -1,0 +1,40 @@
+version: '3.8'
+
+name: test
+services:
+    app:
+        container_name: test-api
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - "8000:8000"
+        volumes:
+            - .:/var/www/html
+        depends_on:
+            - mongo
+        networks:
+            - majorit-network
+
+    mongo:
+        container_name: test-mongodb
+        image: mongo:5.0
+        ports:
+            - "27017:27017"
+        environment:
+            MONGO_INITDB_DATABASE: myappdb
+        volumes:
+            - mongo_data:/data/db
+        healthcheck:
+            test: echo 'db.runCommand("ping").ok' | mongosh mongodb:27017 --quiet
+            interval: 10s
+            timeout: 10s
+            retries: 5
+        networks:
+            - majorit-network
+
+networks:
+    majorit-network:
+
+volumes:
+    mongo_data:
