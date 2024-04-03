@@ -25,7 +25,7 @@ class CustomerController extends Controller
         }
         if (isset($filters['status'])) {
             $status = $filters['status'];
-            $customers->where('status', '=', '%'. $status .'%'); // Search with wildcards
+            $customers->where('status', '=',  $status ); // Search with wildcards
         }
         if (isset($filters['email'])) {
             $email = $filters['email'];
