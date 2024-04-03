@@ -35,13 +35,15 @@ Run `php artisan key:generate`
 
 ## Run Migartions and Seeders inside the docker container 
     1. click container name called test-api 
-[Screenshot](../Screenshots/Screenshot%202024-04-03%20at%2018.03.02.png)
 
-    
+
+![images](Screenshots/Screenshot%202024-04-03%20at%2018.03.02.png)
     2. Click on the terminal tab and run the following commands
-<img src="Screenshots/Screenshot%202024-04-03%20at%2018.15.45.png">
+![images](Screenshots/Screenshot%202024-04-03%20at%2018.15.45.png)
 
-    Run php artisan migrate`
+    Run php artisan migrate
+
+    php artisan config:publish cors
 
     Run php artisan db:seedavel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
