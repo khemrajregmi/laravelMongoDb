@@ -22,6 +22,8 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
 ## Steps to run the project
+You can find the Frontend of the project in this link https://github.com/khemrajregmi/NuxtFilterTable
+
 `1.Git clone the project`
 
 `2. cd into the <project name>`
@@ -41,13 +43,11 @@ Run `php artisan key:generate`
     2. Click on the terminal tab and run the following commands
 ![images](Screenshots/Screenshot%202024-04-03%20at%2018.15.45.png)
 
-    Run php artisan migrate
+    Run `php artisan migrate`
 
-    Run php artisan db:seed --class = CustomerSeeder
+    Run `php artisan config:publish cors`
 
-    php artisan config:publish cors
-
-    Run php artisan db:seedavel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+    Run `php artisan db:seed --class = CustomerSeeder`
 
 ## License
 
