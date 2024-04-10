@@ -43,6 +43,8 @@ Run `php artisan key:generate`
 
     Run php artisan migrate
 
+    Run php artisan db:seed --class = CustomerSeeder
+
     php artisan config:publish cors
 
     Run php artisan db:seedavel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
