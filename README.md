@@ -21,11 +21,11 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-Note : You can find the Frontend of the project in this link https://github.com/khemrajregmi/NuxtFilterTable
+Note : You can find the Frontend of the project in this link https://github.com/khemrajregmi/NuxtFilterTable , if you feel it helps you please press the star button at the top
 
 ## Steps to run the project
 
-1. `Git clone the project`
+1. `git clone git@github.com:khemrajregmi/laravelMongoDb.git` if you are using ssh clone else with HTTPS `git clone https://github.com/khemrajregmi/laravelMongoDb.git`
 
 2. `cd into the <project name>`
 
