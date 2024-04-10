@@ -31,7 +31,7 @@ Note : You can find the Frontend of the project in this link https://github.com/
 
 3. `Copy .env.example to .env`
 
-4. `Run composer install`
+4.Run ` composer install` in terminal
 
 Run `php artisan key:generate`
 
