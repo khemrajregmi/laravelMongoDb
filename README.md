@@ -21,17 +21,17 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
+Note : You can find the Frontend of the project in this link https://github.com/khemrajregmi/NuxtFilterTable
+
 ## Steps to run the project
-You can find the Frontend of the project in this link https://github.com/khemrajregmi/NuxtFilterTable
 
-`1.Git clone the project`
+1. `Git clone the project`
 
-`2. cd into the <project name>`
+2. `cd into the <project name>`
 
+3. `Copy .env.example to .env`
 
-`3. Copy .env.example to .env`
-
-`4. Run composer install`
+4. `Run composer install`
 
 Run `php artisan key:generate`
 
