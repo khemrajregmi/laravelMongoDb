@@ -31,9 +31,11 @@ Note : You can find the Frontend of the project in this link https://github.com/
 
 3. `Copy .env.example to .env`
 
-4.Run ` composer install` in terminal
+4. Run ` composer install` in terminal
 
-Run `php artisan key:generate`
+5. Run `php artisan key:generate`
+   
+7. Run `Docker compose up --build`
 
 ## Run Migartions and Seeders inside the docker container 
     1. click container name called test-api 
